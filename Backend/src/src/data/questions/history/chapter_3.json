@@ -1,0 +1,901 @@
+[
+  {
+    "id": 64,
+    "chapter": 3,
+    "subject": "history",
+    "question": "متى تم تأسيس جامعة الدول العربية كجامعة للدول العربية؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "1945/03/22",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "1945/10/24",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "1948/05/15",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "1964/05/28",
+        "correct": false
+      }
+    ],
+    "explanation": "تأسست جامعة الدول العربية في 22 مارس 1945. [cite: 8]"
+  },
+  {
+    "id": 65,
+    "chapter": 3,
+    "subject": "history",
+    "question": "ما هو تاريخ بداية الاحتلال البريطاني للهند؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "1764/06/15",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "1857/01/01",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "1947/08/15",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "1965/06/19",
+        "correct": false
+      }
+    ],
+    "explanation": "بدأ الاستعمار البريطاني للهند رسمياً عام 1857 (وثبت في الجدول بدون يوم محدد). [cite: 8]"
+  },
+  {
+    "id": 66,
+    "chapter": 3,
+    "subject": "history",
+    "question": "متى تم تأسيس الحركة الصهيونية العالمية؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "1897/08/29",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "1917/11/02",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "1947/11/29",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "1948/05/15",
+        "correct": false
+      }
+    ],
+    "explanation": "تأسست الحركة الصهيونية العالمية في المؤتمر الصهيوني الأول عام 1897. [cite: 8]"
+  },
+  {
+    "id": 67,
+    "chapter": 3,
+    "subject": "history",
+    "question": "متى استقلت الهند عن الاحتلال البريطاني؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "1947/08/15",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "1965/06/19",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "1947/10/06",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "1945/08/15",
+        "correct": false
+      }
+    ],
+    "explanation": "استقلت الهند عن الاحتلال البريطاني في 15 أوت 1947. [cite: 8]"
+  },
+  {
+    "id": 68,
+    "chapter": 3,
+    "subject": "history",
+    "question": "متى أعلن هوشي منه رسمياً عن استقلال دولة فيتنام الشمالية؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "سبتمبر 1945",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "مارس 1946",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "جويلية 1954",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "أفريل 1975",
+        "correct": false
+      }
+    ],
+    "explanation": "أعلن هوشي منه استقلال جمهورية فيتنام الشمالية الديمقراطية في سبتمبر 1945. [cite: 12, 13]"
+  },
+  {
+    "id": 69,
+    "chapter": 3,
+    "subject": "history",
+    "question": "متى بدأت الحرب الفيتنامية الأولى ضد فرنسا؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "1945/09/02",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "1946/11/02",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "1954/03/13",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "1954/05/07",
+        "correct": false
+      }
+    ],
+    "explanation": "بدأت الحرب الفيتنامية ضد المستعمر الفرنسي في 2 نوفمبر 1946. [cite: 8]"
+  },
+  {
+    "id": 70,
+    "chapter": 3,
+    "subject": "history",
+    "question": "ما هي الفترة الزمنية الدقيقة لمعركة ديان بيان فو التي هزمت حركات التحرر فيها فرنسا؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "من 1954/03/13 إلى 1954/05/07",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "من 1946/11/02 إلى 1950/06/25",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "من 1956/10/29 إلى 1956/11/05",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "من 1967/06/05 إلى 1967/06/10",
+        "correct": false
+      }
+    ],
+    "explanation": "جرت معركة ديان بيان فو الفيتنامية الفاصلة ضد القوات الفرنسية من 13 مارس إلى 7 ماي 1954. [cite: 35, 36]"
+  },
+  {
+    "id": 71,
+    "chapter": 3,
+    "subject": "history",
+    "question": "متى تم توقيع اتفاقيات جنيف المنهية للحرب الفيتنامية الأولى؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "1954/05/07",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "1954/07/20",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "1946/11/02",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "1973/01/27",
+        "correct": false
+      }
+    ],
+    "explanation": "تم توقيع اتفاقيات جنيف المتعلقة بالهند الصينية في 20 جويلية 1954. [cite: 8, 18]"
+  },
+  {
+    "id": 72,
+    "chapter": 3,
+    "subject": "history",
+    "question": "متى اندلعت ثورة الضباط الأحرار في مصر ضد النظام الملكي (الملك فاروق)؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "1953/01/18",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "1948/05/15",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "1952/07/23",
+        "correct": true
+      },
+      {
+        "id": 4,
+        "text": "1956/07/26",
+        "correct": false
+      }
+    ],
+    "explanation": "قامت ثورة يوليو المجيدة بمصر وأطاحت بالنظام الملكي في 23 جويلية 1952. [cite: 20, 37, 45]"
+  },
+  {
+    "id": 73,
+    "chapter": 3,
+    "subject": "history",
+    "question": "متى تم إعلان النظام الجمهوري في مصر رسمياً؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "1953/01/18",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "1952/07/23",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "1956/07/26",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "1953/06/18",
+        "correct": false
+      }
+    ],
+    "explanation": "أُعلن النظام الجمهوري في مصر في 18 جانفي 1953. [cite: 8, 44]"
+  },
+  {
+    "id": 74,
+    "chapter": 3,
+    "subject": "history",
+    "question": "متى أعلن الرئيس المصري جمال عبد الناصر عن تأميم شركة قناة السويس؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "1956/10/29",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "1956/07/26",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "1952/07/23",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "1953/01/18",
+        "correct": false
+      }
+    ],
+    "explanation": "أعلن جمال عبد الناصر تأميم قناة السويس شركة مساهمة مصرية في 26 جويلية 1956. [cite: 11, 33, 45]"
+  },
+  {
+    "id": 75,
+    "chapter": 3,
+    "subject": "history",
+    "question": "متى وقع العدوان الثلاثي على مصر من طرف بريطانيا، فرنسا وإسرائيل؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "من 1956/10/29 إلى 1956/11/07",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "من 1956/10/29 إلى 1956/10/31",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "من 1956/07/26 إلى 1956/08/01",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "من 1967/06/05 إلى 1967/06/10",
+        "correct": false
+      }
+    ],
+    "explanation": "شن العدوان الثلاثي على مصر في 29 أكتوبر 1956 واستمر إلى 7 نوفمبر 1956. [cite: 8, 45]"
+  },
+  {
+    "id": 76,
+    "chapter": 3,
+    "subject": "history",
+    "question": "متى تم قصف مدينة بورسعيد المصرية من طرف فرنسا وبريطانيا في العدوان الثلاثي؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "1956/10/29",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "1956/11/05",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "1956/11/07",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "1956/07/26",
+        "correct": false
+      }
+    ],
+    "explanation": "قامت القوات الفرنسية والبريطانية بقصف بورسعيد في 5 نوفمبر 1956. [cite: 8, 44]"
+  },
+  {
+    "id": 77,
+    "chapter": 3,
+    "subject": "history",
+    "question": "متى نشأت جمهورية الكونغو الديمقراطية كدولة مستقلة؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "1885/08/01",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "1960/06/30",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "1965/01/24",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "1970/03/20",
+        "correct": false
+      }
+    ],
+    "explanation": "قامت جمهورية الكونغو في 1 أوت 1885. [cite: 8]"
+  },
+  {
+    "id": 78,
+    "chapter": 3,
+    "subject": "history",
+    "question": "متى تم الاستيلاء على الحكم في الكونغو من طرف موبوتو؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "1965/01/24",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "1960/06/30",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "1970/03/20",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "1971/10/27",
+        "correct": false
+      }
+    ],
+    "explanation": "استولى موبوتو على الحكم في الكونغو في 24 جانفي 1965. [cite: 8]"
+  },
+  {
+    "id": 79,
+    "chapter": 3,
+    "subject": "history",
+    "question": "متى تم تأسيس منظمة الوحدة الإفريقية (OAU)؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "1963/05/25",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "1965/01/24",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "1970/03/20",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "1973/12/15",
+        "correct": false
+      }
+    ],
+    "explanation": "تأسست منظمة الوحدة الإفريقية في 25 ماي 1963. [cite: 9, 99]"
+  },
+  {
+    "id": 80,
+    "chapter": 3,
+    "subject": "history",
+    "question": "متى تأسست منظمة الفرنكفونية الدولية؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "1970/03/20",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "1963/05/25",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "1973/12/15",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "1965/01/24",
+        "correct": false
+      }
+    ],
+    "explanation": "قامت منظمة الفرنكفونية في 20 مارس 1970. [cite: 8, 42]"
+  },
+  {
+    "id": 81,
+    "chapter": 3,
+    "subject": "history",
+    "question": "ما هو تاريخ الغارات الجوية الإسرائيلية التي سبقت حرب النكسة على المطارات المصرية؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "1967/06/05",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "1967/11/22",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "1973/10/06",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "1956/10/29",
+        "correct": false
+      }
+    ],
+    "explanation": "شنّت إسرائيل غاراتها الجوية على المطارات المصرية في 5 جوان 1967. [cite: 8]"
+  },
+  {
+    "id": 82,
+    "chapter": 3,
+    "subject": "history",
+    "question": "متى اندلعت النكسة (حرب الأيام الستة) بين العرب وإسرائيل؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "1967/06/05",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "1967/11/22",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "1973/10/06",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "1969/07/20",
+        "correct": false
+      }
+    ],
+    "explanation": "اندلعت حرب 1967 (النكسة) في 5 جوان 1967. [cite: 8, 135]"
+  },
+  {
+    "id": 83,
+    "chapter": 3,
+    "subject": "history",
+    "question": "ما هو تاريخ صدور القرار رقم 242 عن مجلس الأمن الدولي بعد حرب النكسة؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "1967/06/05",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "1967/11/22",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "1973/10/22",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "1978/09/17",
+        "correct": false
+      }
+    ],
+    "explanation": "أصدر مجلس الأمن الدولي القرار الأممي الشهير رقم 242 في 22 نوفمبر 1967. [cite: 134, 139]"
+  },
+  {
+    "id": 84,
+    "chapter": 3,
+    "subject": "history",
+    "question": "متى اندلعت الحرب العربية الإسرائيلية الرابعة (حرب أكتوبر المجيدة)؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "1973/10/06",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "1973/10/22",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "1967/06/05",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "1977/11/19",
+        "correct": false
+      }
+    ],
+    "explanation": "شنت القوات المصرية والسورية حرب أكتوبر (العبور) ضد الكيان الصهيوني في 6 أكتوبر 1973. [cite: 38, 135]"
+  },
+  {
+    "id": 85,
+    "chapter": 3,
+    "subject": "history",
+    "question": "متى صدر قرار مجلس الأمن رقم 338 الداعي لوقف إطلاق النار بين العرب وإسرائيل؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "1973/10/06",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "1973/10/22",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "1973/10/24",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "1967/11/22",
+        "correct": false
+      }
+    ],
+    "explanation": "صدر قرار مجلس الأمن رقم 338 في 22 أكتوبر 1973. [cite: 8, 38, 136]"
+  },
+  {
+    "id": 86,
+    "chapter": 3,
+    "subject": "history",
+    "question": "متى زار الرئيس المصري أنور السادات القدس المحتلة في خطوة تاريخية؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "1977/11/19",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "1978/09/17",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "1979/03/26",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "1973/10/06",
+        "correct": false
+      }
+    ],
+    "explanation": "زار أنور السادات القدس المحتلة في 19 نوفمبر 1977. [cite: 8]"
+  },
+  {
+    "id": 87,
+    "chapter": 3,
+    "subject": "history",
+    "question": "متى تم توقيع اتفاقية كامب ديفيد بين مصر وإسرائيل برعاية أمريكية؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "1979/03/26",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "1978/09/17",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "1977/11/19",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "1993/09/13",
+        "correct": false
+      }
+    ],
+    "explanation": "وقع السادات وبيغن اتفاقية كامب ديفيد في الولايات المتحدة في 17 سبتمبر 1978. [cite: 41, 143]"
+  },
+  {
+    "id": 88,
+    "chapter": 3,
+    "subject": "history",
+    "question": "متى تم توقيع معاهدة السلام بين مصر وإسرائيل في واشنطن؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "1979/03/26",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "1978/09/17",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "1977/11/19",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "1993/09/13",
+        "correct": false
+      }
+    ],
+    "explanation": "تم توقيع معاهدة السلام بين مصر وإسرائيل في 26 مارس 1979. [cite: 8, 144]"
+  },
+  {
+    "id": 89,
+    "chapter": 3,
+    "subject": "history",
+    "question": "متى انطلقت شرارة الانتفاضة الفلسطينية الأولى (انتفاضة الحجارة)؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "1987/12/08",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "1988/11/15",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "1982/06/06",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "1993/09/13",
+        "correct": false
+      }
+    ],
+    "explanation": "اندلعت الانتفاضة الفلسطينية الأولى (ثورة الحجارة) ضد الاحتلال الإسرائيلي في 8 ديسمبر 1987. [cite: 145, 149]"
+  },
+  {
+    "id": 90,
+    "chapter": 3,
+    "subject": "history",
+    "question": "متى تم إعلان قيام دولة فلسطين من قِبل المجلس الوطني الفلسطيني في أرض الجزائر؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "1988/11/15",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "1987/12/08",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "1993/09/13",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "1994/07/20",
+        "correct": false
+      }
+    ],
+    "explanation": "أعلن ياسر عرفات وثيقة استقلال دولة فلسطين من قصر الصنوبر بالجزائر العاصمة في 15 نوفمبر 1988. [cite: 146, 150]"
+  },
+  {
+    "id": 91,
+    "chapter": 3,
+    "subject": "history",
+    "question": "متى انعقد مؤتمر مدريد للسلام بين العرب والفلسطينيين وإسرائيل؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "1991/10/30",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "1993/09/13",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "1994/07/01",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "2004/11/11",
+        "correct": false
+      }
+    ],
+    "explanation": "انعقد مؤتمر مدريد للسلام في 30 أكتوبر 1991. [cite: 8, 152]"
+  },
+  {
+    "id": 92,
+    "chapter": 3,
+    "subject": "history",
+    "question": "متى تم توقيع اتفاقية أوسلو للحكم الذاتي الفلسطيني في واشنطن؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "1993/09/13",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "1994/07/20",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "1991/10/30",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "2004/11/11",
+        "correct": false
+      }
+    ],
+    "explanation": "وقعت منظمة التحرير الفلسطينية مع إسرائيل اتفاقية أوسلو (الحكم الذاتي) في 13 سبتمبر 1993. [cite: 153]"
+  },
+  {
+    "id": 93,
+    "chapter": 3,
+    "subject": "history",
+    "question": "متى تمت عودة ياسر عرفات إلى قطاع غزة بعد سنوات المنفى؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "1994/07/01",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "1993/09/13",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "1994/07/20",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "2004/11/11",
+        "correct": false
+      }
+    ],
+    "explanation": "عاد الرئيس ياسر عرفات إلى قطاع غزة في 1 جويلية 1994 بعد اتفاقية أوسلو. [cite: 8, 154]"
+  },
+  {
+    "id": 94,
+    "chapter": 3,
+    "subject": "history",
+    "question": "متى توفي الرئيس الفلسطيني ياسر عرفات؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "2004/11/11",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "2004/11/15",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "2005/01/09",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "2004/12/08",
+        "correct": false
+      }
+    ],
+    "explanation": "توفي الرئيس ياسر عرفات في 11 نوفمبر 2004. [cite: 8, 155]"
+  }
+]

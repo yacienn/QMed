@@ -1,0 +1,727 @@
+[
+  {
+    "id": 1,
+    "chapter": 1,
+    "subject": "history",
+    "question": "متى تم تأسيس هيئة الأمم المتحدة رسمياً؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "1945/10/24",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "1947/06/05",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "1945/02/04",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "1949/04/04",
+        "correct": false
+      }
+    ],
+    "explanation": "تم الإعلان الرسمي عن تأسيس منظمة الأمم المتحدة في 24 أكتوبر 1945. [cite: 7, 45]"
+  },
+  {
+    "id": 2,
+    "chapter": 1,
+    "subject": "history",
+    "question": "متى تم إعلان مبدأ ترومان الأمريكي؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "1947/03/12",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "1947/09/22",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "1945/06/26",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "1947/06/05",
+        "correct": false
+      }
+    ],
+    "explanation": "أُعلن مبدأ ترومان المالي والعسكري لدعم اليونان وتركيا ضد الشيوعية في 12 مارس 1947. [cite: 7, 45]"
+  },
+  {
+    "id": 3,
+    "chapter": 1,
+    "subject": "history",
+    "question": "ما هو تاريخ إعلان مشروع مارشال الاقتصادي؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "1947/06/05",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "1947/03/12",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "1947/09/22",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "1949/01/25",
+        "correct": false
+      }
+    ],
+    "explanation": "أعلن وزير الخارجية الأمريكي جورج مارشال عن مشروعه لمساعدة أوروبا في 5 جوان 1947. [cite: 7]"
+  },
+  {
+    "id": 4,
+    "chapter": 1,
+    "subject": "history",
+    "question": "متى تم تأسيس مكتب الإعلام الشيوعي (الكومنفورم)؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "1947/03/12",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "1949/01/25",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "1956/04/17",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "1947/10/06",
+        "correct": true
+      }
+    ],
+    "explanation": "تأسس مكتب الكومنفورم في 6 أكتوبر 1947 كرد فعل على المشاريع الأمريكية الغربية. [cite: 7, 45]"
+  },
+  {
+    "id": 5,
+    "chapter": 1,
+    "subject": "history",
+    "question": "متى أُعلن السوفييت عن مبدأ جدانوف كرد فعل مباشر على السياسة الأمريكية؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "1947/10/06",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "1947/09/22",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "1949/10/07",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "1953/03/05",
+        "correct": false
+      }
+    ],
+    "explanation": "أُعلن مبدأ جدانوف السوفييتي الذي قسّم العالم إلى معسكرين في 22 سبتمبر 1947. [cite: 7]"
+  },
+  {
+    "id": 6,
+    "chapter": 1,
+    "subject": "history",
+    "question": "متى تم إنشاء مجلس التعاون الاقتصادي (الكوميكون) في المعسكر الشرقي؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "1947/10/06",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "1949/05/08",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "1949/01/25",
+        "correct": true
+      },
+      {
+        "id": 4,
+        "text": "1955/05/14",
+        "correct": false
+      }
+    ],
+    "explanation": "أُنشئ مجلس الكوميكون كرد اقتصادي على مشروع مارشال في 25 جانفي 1949. [cite: 7, 45]"
+  },
+  {
+    "id": 7,
+    "chapter": 1,
+    "subject": "history",
+    "question": "متى تأسس الحلف العسكري الغربي المعروف بحلف الشمال الأطلسي (الناتو)؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "1949/04/04",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "1949/01/25",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "1955/05/14",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "1954/09/08",
+        "correct": false
+      }
+    ],
+    "explanation": "تأسس حلف الشمال الأطلسي (Nato) بواشنطن في 4 أفريل 1949. [cite: 7, 45]"
+  },
+  {
+    "id": 8,
+    "chapter": 1,
+    "subject": "history",
+    "question": "متى تم الإعلان عن تأسيس جمهورية ألمانيا الغربية (R.F.A.)؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "1949/05/23",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "1949/10/07",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "1948/09/09",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "1949/01/25",
+        "correct": false
+      }
+    ],
+    "explanation": "أُعلن عن تأسيس جمهورية ألمانيا الغربية (R.F.A.) في 23 ماي 1949. [cite: 7, 45]"
+  },
+  {
+    "id": 9,
+    "chapter": 1,
+    "subject": "history",
+    "question": "متى تم الإعلان عن تأسيس جمهورية ألمانيا الديمقراطية (D.D.R.)؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "1949/10/07",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "1949/05/23",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "1948/09/10",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "1947/10/06",
+        "correct": false
+      }
+    ],
+    "explanation": "أُعلن عن تأسيس جمهورية ألمانيا الديمقراطية (D.D.R.) في 7 أكتوبر 1949. [cite: 7]"
+  },
+  {
+    "id": 10,
+    "chapter": 1,
+    "subject": "history",
+    "question": "متى وقعت حرب كوريا الشهيرة التي انتهت بالهدنة؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "1950/06/25",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "1953/07/27",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "1950/08/15",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "1948/08/25",
+        "correct": false
+      }
+    ],
+    "explanation": "انتهت الحرب الأهلية الكورية بتوقيع هدنة في 27 جويلية 1953 (بداية الحرب في 25 جوان 1950). [cite: 8]"
+  },
+  {
+    "id": 11,
+    "chapter": 1,
+    "subject": "history",
+    "question": "متى تأسس حلف بغداد (الوسطى) كحلف عسكري للدول الغربية؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "1955/02/24",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "1954/09/08",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "1955/05/14",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "1957/01/05",
+        "correct": false
+      }
+    ],
+    "explanation": "تأسس حلف بغداد (المعروف لاحقاً بحلف الوسطى) في 24 فيفري 1955. [cite: 7, 45]"
+  },
+  {
+    "id": 12,
+    "chapter": 1,
+    "subject": "history",
+    "question": "متى تم تأسيس حلف وارسو كرد فعل عسكري من المعسكر الشرقي؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "1955/05/14",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "1954/09/08",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "1955/02/24",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "1949/04/04",
+        "correct": false
+      }
+    ],
+    "explanation": "تأسس حلف وارسو في 14 ماي 1955 لموازنة حلف الناتو. [cite: 7, 45]"
+  },
+  {
+    "id": 13,
+    "chapter": 1,
+    "subject": "history",
+    "question": "متى تبنى الرئيس السوفييتي خروتشوف رسمياً سياسة التعايش السلمي مع الغرب؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "1956/02/14",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "1956/04/17",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "1957/01/05",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "1961/08/13",
+        "correct": false
+      }
+    ],
+    "explanation": "تبنى نيكيتا خروتشوف سياسة التعايش السلمي لتخفيف حدة الحرب الباردة في 14 فيفري 1956. [cite: 7]"
+  },
+  {
+    "id": 14,
+    "chapter": 1,
+    "subject": "history",
+    "question": "متى تم تأسيس حلف جنوب شرق آسيا (المانيلا) لحصار الشيوعية في آسيا؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "1954/09/08",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "1955/02/24",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "1955/05/14",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "1957/01/05",
+        "correct": false
+      }
+    ],
+    "explanation": "تأسس حلف مانيلا (جنوب شرق آسيا) في 8 سبتمبر 1954. [cite: 7]"
+  },
+  {
+    "id": 15,
+    "chapter": 1,
+    "subject": "history",
+    "question": "ما هو تاريخ إعلان مشروع إيزنهاور الموجه للشرق الأوسط؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "1955/02/24",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "1957/01/05",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "1954/09/08",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "1958/10/03",
+        "correct": false
+      }
+    ],
+    "explanation": "أُعلن مشروع إيزنهاور لملء الفراغ في الشرق الأوسط في 5 جانفي 1957. [cite: 7, 45]"
+  },
+  {
+    "id": 16,
+    "chapter": 1,
+    "subject": "history",
+    "question": "متى أعلن السوفييت عن نجاح إطلاقهم للقمر الصناعي سبوتنيك II مع الكلبة لايكا؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "1957/10/04",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "1957/11/03",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "1961/04/12",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "1969/07/20",
+        "correct": false
+      }
+    ],
+    "explanation": "أطلق السوفييت القمر الصناعي سبوتنيك II الذي حمل الكلبة لايكا في 3 نوفمبر 1957. [cite: 7]"
+  },
+  {
+    "id": 17,
+    "chapter": 1,
+    "subject": "history",
+    "question": "متى قامت الثورة العراقية التي أطاحت بالنظام الملكي الهاشمي؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "1958/07/14",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "1952/07/23",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "1958/09/19",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "1963/06/20",
+        "correct": false
+      }
+    ],
+    "explanation": "نجحت الثورة العراقية بقيادة عبد الكريم قاسم وأطاحت بالنظام الملكي في 14 جويلية 1958. [cite: 7, 45]"
+  },
+  {
+    "id": 18,
+    "chapter": 1,
+    "subject": "history",
+    "question": "ما هو تاريخ بناء جدار برلين العازل بين الألمانيتين؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "1961/08/13",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "1959/01/08",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "1963/06/20",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "1948/06/23",
+        "correct": false
+      }
+    ],
+    "explanation": "بدأ بناء جدار برلين (جدار العار) للفصل بين الألمانيتين في 13 أوت 1961. [cite: 7, 45]"
+  },
+  {
+    "id": 19,
+    "chapter": 1,
+    "subject": "history",
+    "question": "متى دار السوفييتي يوري غاغارين كأول رائد فضاء في مدار حول الأرض؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "1961/04/21",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "1969/07/20",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "1957/10/04",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "1966/05/12",
+        "correct": false
+      }
+    ],
+    "explanation": "خرج يوري غاغارين إلى الفضاء ودار حول الأرض في 21 أبريل 1961 (وذكر 12 أبريل في جدول آخر). [cite: 8, 45]"
+  },
+  {
+    "id": 20,
+    "chapter": 1,
+    "subject": "history",
+    "question": "ما هي الفترة التي شهدت تأسيس وانعقاد أول مؤتمر لحركة عدم الانحياز؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "من 1955/04/18 إلى 1955/04/24",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "من 1961/09/01 إلى 1961/09/06",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "من 1973/09/05 إلى 1973/09/09",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "من 1948/06/28 إلى 1949/05/12",
+        "correct": false
+      }
+    ],
+    "explanation": "تأسست حركة عدم الانحياز رسمياً في مؤتمر بلغراد الأول من 1 إلى 6 سبتمبر 1961. [cite: 8]"
+  },
+  {
+    "id": 21,
+    "chapter": 1,
+    "subject": "history",
+    "question": "متى تم إنشاء الخط الأحمر المباشر بين موسكو وواشنطن لتجنب الحرب النووية؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "1961/08/13",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "1963/06/20",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "1965/06/19",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "1956/04/17",
+        "correct": false
+      }
+    ],
+    "explanation": "أقيم الخط الأحمر بين موسكو وواشنطن في 20 جوان 1963 لتفادي الأزمات الدبلوماسية المباشرة. [cite: 7, 49, 50]"
+  },
+  {
+    "id": 22,
+    "chapter": 1,
+    "subject": "history",
+    "question": "ما هو التاريخ الدقيق لتحطيم وتهديم جدار برلين؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "1989/12/03",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "1990/10/03",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "1989/11/09",
+        "correct": true
+      },
+      {
+        "id": 4,
+        "text": "1991/12/25",
+        "correct": false
+      }
+    ],
+    "explanation": "تم تحطيم جدار برلين إيذاناً بنهاية الحرب الباردة في 9 نوفمبر 1989. [cite: 7, 51]"
+  },
+  {
+    "id": 23,
+    "chapter": 1,
+    "subject": "history",
+    "question": "متى تم الإعلان بشكل رسمي عن زوال وانهيار الاتحاد السوفييتي؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "1991/07/01",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "1991/12/25",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "1989/12/04",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "1991/06/28",
+        "correct": false
+      }
+    ],
+    "explanation": "أُعلن رسمياً عن زوال الاتحاد السوفييتي وظهور روسيا الاتحادية في 25 ديسمبر 1991. [cite: 7, 62]"
+  },
+  {
+    "id": 24,
+    "chapter": 1,
+    "subject": "history",
+    "question": "متى انعقد مؤتمر قمة مالطا التاريخي الذي أنهى القطبية الثنائية؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "1985/03/11",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "1989/11/09",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "1989/12/03",
+        "correct": true
+      },
+      {
+        "id": 4,
+        "text": "1990/10/03",
+        "correct": false
+      }
+    ],
+    "explanation": "انعقد مؤتمر مالطا بين غورباتشوف وبوش الأب في 3 ديسمبر 1989 (واستمر إلى 4 ديسمبر). [cite: 7, 52, 55]"
+  },
+  {
+    "id": 25,
+    "chapter": 1,
+    "subject": "history",
+    "question": "متى خرجت فرنسا رسمياً من حلف الناتو العسكري؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "1965/06/19",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "1966/03/07",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "1969/05/19",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "1958/09/19",
+        "correct": false
+      }
+    ],
+    "explanation": "قررت فرنسا بقيادة ديغول الخروج من الحلف العسكري للناتو في 7 مارس 1966. [cite: 8, 45]"
+  }
+]

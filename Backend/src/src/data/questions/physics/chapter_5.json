@@ -1,0 +1,524 @@
+[
+  {
+    "id": 62,
+    "chapter": 5,
+    "subject": "physics",
+    "question": "شعاع السرعة في الحركة يكون؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "مماسي للمسار وفي جهة الحركة",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "عمودي على المسار",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "باتجاه عكس الحركة",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "باتجاه مركز المسار",
+        "correct": false
+      }
+    ],
+    "explanation": "مميزات شعاع السرعة: مماسي للمسار وفي جهة الحركة."
+  },
+  {
+    "id": 63,
+    "chapter": 5,
+    "subject": "physics",
+    "question": "الحركة المستقيمة المنتظمة تتميز بـ؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "مسار مستقيم وسرعة ثابتة",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "مسار مستقيم وتسارع ثابت",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "مسار منحن وسرعة ثابتة",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "مسار مستقيم وسرعة متغيرة",
+        "correct": false
+      }
+    ],
+    "explanation": "نقول أن الحركة مستقيمة منتظمة: إذا كان المسار مستقيم والسرعة ثابتة (التسارع معدوم). الحركة المستقيمة المتغيرة بانتظام: إذا كان المسار مستقيم والتسارع ثابت."
+  },
+  {
+    "id": 64,
+    "chapter": 5,
+    "subject": "physics",
+    "question": "في الحركة المستقيمة المتغيرة بانتظام، التسارع يكون؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "ثابت",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "معدوم",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "متزايد",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "متناقص",
+        "correct": false
+      }
+    ],
+    "explanation": "في الحركة المستقيمة المتغيرة بانتظام: a = cte، V = at + V0، x = 1/2 at² + V0t + x0."
+  },
+  {
+    "id": 65,
+    "chapter": 5,
+    "subject": "physics",
+    "question": "في مخطط السرعة V = f(t)، الميل يمثل؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "التسارع a",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "السرعة v",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "المسافة x",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "الزمن t",
+        "correct": false
+      }
+    ],
+    "explanation": "يمثل الميل في مخطط السرعة V = f(t) تسارع الحركة a."
+  },
+  {
+    "id": 66,
+    "chapter": 5,
+    "subject": "physics",
+    "question": "إذا كان التسارع a > 0 في الحركة المستقيمة فإن الحركة تكون؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "متسارعة",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "متباطئة",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "منتظمة",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "دائرية",
+        "correct": false
+      }
+    ],
+    "explanation": "يمكن الحكم على طبيعة الحركة من إشارة التسارع a: إذا كان a > 0 الحركة متسارعة، وإذا كان a < 0 الحركة متباطئة."
+  },
+  {
+    "id": 67,
+    "chapter": 5,
+    "subject": "physics",
+    "question": "المساحة تحت منحنى السرعة V = f(t) تمثل؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "المسافة المقطوعة Δx",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "التسارع a",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "السرعة v",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "الزمن t",
+        "correct": false
+      }
+    ],
+    "explanation": "تمثل المساحة في مخطط السرعة المسافة Δx التي يقطعها المتحرك بين اللحظتين t1 و t2 أي في المدة الزمنية."
+  },
+  {
+    "id": 68,
+    "chapter": 5,
+    "subject": "physics",
+    "question": "في السقوط الحر، القوة الوحيدة المؤثرة على الجسم هي؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "الثقل P = mg",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "قوة الاحتكاك",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "قوة دفع أرخميدس",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "جميع ما سبق",
+        "correct": false
+      }
+    ],
+    "explanation": "في السقوط الحر: القوة الوحيدة هي الثقل P = mg، والتسارع a = g. في السقوط الحقيقي: القوى هي الثقل P ومقاومة الهواء f."
+  },
+  {
+    "id": 69,
+    "chapter": 5,
+    "subject": "physics",
+    "question": "الجسم المتميز للحصول على حركة مستقيمة شاقولية يكون من حيث؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "الشكل والحجم والكتلة",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "السرعة فقط",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "التسارع فقط",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "الزمن فقط",
+        "correct": false
+      }
+    ],
+    "explanation": "يكون الجسم متميزا للحصول على حركة مستقيمة شاقولية في نظامين من حيث: الشكل - الحجم - الكتلة."
+  },
+  {
+    "id": 70,
+    "chapter": 5,
+    "subject": "physics",
+    "question": "وحدة K في السرعات الصغيرة هي؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Kg/s",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "Kg/m",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "m/s",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "N/s",
+        "correct": false
+      }
+    ],
+    "explanation": "[K] = Kg/s، [K'] = Kg/m."
+  },
+  {
+    "id": 71,
+    "chapter": 5,
+    "subject": "physics",
+    "question": "السرعة الحدية في السقوط الحقيقي تعطى بالعلاقة؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "vL = mg/k",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "vL = k/mg",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "vL = mgk",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "vL = m/gk",
+        "correct": false
+      }
+    ],
+    "explanation": "السرعة الحدية vL = mg/k حيث تتحقق dv/dt = 0 في المعادلة التفاضلية dv/dt = g - (k/m)v."
+  },
+  {
+    "id": 72,
+    "chapter": 5,
+    "subject": "physics",
+    "question": "المرجع الجيو مركزي الأرضي هو مرجع مبدؤه؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "مركز الأرض",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "مركز الشمس",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "سطح الأرض",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "مركز القمر",
+        "correct": false
+      }
+    ],
+    "explanation": "المرجع الجيو مركزي الأرضي هو مرجع مبدؤه مركز الأرض وله محاور ثلاثة موجهة نحو ثلاثة نجوم ثابتة."
+  },
+  {
+    "id": 73,
+    "chapter": 5,
+    "subject": "physics",
+    "question": "الدور في الحركة الدائرية هو؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "زمن دورة واحدة كاملة",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "زمن نصف دورة",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "المسافة المقطوعة في دورة",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "السرعة في الدورة",
+        "correct": false
+      }
+    ],
+    "explanation": "الدور هو الزمن اللازم للقيام بدورة واحدة في الحركة الدائرية وهو زمن مروريين متتاليين بنفس النقطة وفي نفس الاتجاه."
+  },
+  {
+    "id": 74,
+    "chapter": 5,
+    "subject": "physics",
+    "question": "في الحركة الدائرية المنتظمة، التسارع يكون؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "ثابت وناظمي",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "مماسي",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "معدوم",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "متغير",
+        "correct": false
+      }
+    ],
+    "explanation": "في الحركة الدائرية المنتظمة، يكون المسار دائري والسرعة ثابتة والتسارع ثابت وناظمي (مركزي)."
+  },
+  {
+    "id": 75,
+    "chapter": 5,
+    "subject": "physics",
+    "question": "القمر الجيو مستقر يتميز بدور يساوي؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "24 ساعة",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "12 ساعة",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "48 ساعة",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "365 يوما",
+        "correct": false
+      }
+    ],
+    "explanation": "القمر الجيو مستقر يتميز بدور يقارب دور الأرض TS = 24h، مداره في مستوى خط الإستواء، يدور في نفس جهة دوران الأرض."
+  },
+  {
+    "id": 76,
+    "chapter": 5,
+    "subject": "physics",
+    "question": "قانون كيبلر الثالث يعطى بالعلاقة؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "T²/a³ = k",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "T/a² = k",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "T³/a² = k",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "T²/a = k",
+        "correct": false
+      }
+    ],
+    "explanation": "قانون كيبلر الثالث: مربع الدور لمدار الكوكب يتناسب طردا مع مكعب نصف طول المحور الكبير: T²/a³ = k. السرعة المدارية: vorb = √(GM/r)."
+  },
+  {
+    "id": 77,
+    "chapter": 5,
+    "subject": "physics",
+    "question": "القمر لا يسقط على الأرض رغم قوة الجذب لأن؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "تنشأ قوة طاردة معاكسة",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "لا توجد قوة جذب",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "القمر بعيد جدا",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "القمر خفيف",
+        "correct": false
+      }
+    ],
+    "explanation": "عند دوران القمر تنشأ قوة طاردة معاكسة في الاتجاه ومساوية في الشدة لقوة الجذب فيبقى القمر في مداره ولا يسقط على الأرض."
+  },
+  {
+    "id": 78,
+    "chapter": 5,
+    "subject": "physics",
+    "question": "معادلة مسار المقذوف تعطى بالعلاقة؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "y = -gx²/(2v0²cos²α) + x.tgα",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "y = gx²/(2v0²cos²α) + x.tgα",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "y = -gx²/(2v0²sin²α) + x.tgα",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "y = -gx²/(2v0²cos²α) - x.tgα",
+        "correct": false
+      }
+    ],
+    "explanation": "معادلة المسار: y = -gx²/(2v0²cos²α) + x.tgα. المدى: xp = v0²sin2α/g. الذروة: ys = v0²sin²α/(2g)."
+  },
+  {
+    "id": 79,
+    "chapter": 5,
+    "subject": "physics",
+    "question": "ميكانيك نيوتن يبقى صالحا للأجسام التي لها سرعات؟",
+    "choices": [
+      {
+        "id": 1,
+        "text": "أقل بكثير من سرعة الضوء",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "أكبر من سرعة الضوء",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "مساوية لسرعة الضوء",
+        "correct": false
+      },
+      {
+        "id": 4,
+        "text": "متغيرة",
+        "correct": false
+      }
+    ],
+    "explanation": "يبقى ميكانيك نيوتن صالحا للتطبيق على الأجسام التي لها سرعات أقل بكثير من سرعة الضوء بحيث يقوم على أساس أن زمن مشاهدة الظاهرة يوافق زمن حدوثها."
+  }
+]
