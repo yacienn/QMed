@@ -106,29 +106,35 @@ class _HostPageState extends State<HostPage> {
             ChatButton(myUserName: _vm.myUserName),
           ],
         ),
-        body: Padding(
+        body: ListView(
           padding: const EdgeInsets.all(24),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.stretch,
-            children: [
-              _RoomHeader(
-                roomId: widget.roomId,
-                playerCount: websocket.players.length,
+          children: [
+            _RoomHeader(
+              roomId: widget.roomId,
+              playerCount: websocket.players.length,
+            ),
+            const SizedBox(height: 16),
+            // BUG FIX: this used to be Expanded inside a Column, so once the
+            // quiz config section below grew tall enough (subject + chapters
+            // + confirm button + error banner), it squeezed this down to
+            // near-zero height and the player list effectively disappeared.
+            // A fixed height + its own internal scroll keeps players always
+            // visible no matter how big the config section gets, and the
+            // outer ListView lets the whole page scroll instead of fighting
+            // over space.
+            SizedBox(
+              height: 220,
+              child: _PlayerList(
+                players: websocket.players,
+                myUserName: _vm.myUserName,
               ),
-              const SizedBox(height: 16),
-              Expanded(
-                child: _PlayerList(
-                  players: websocket.players,
-                  myUserName: _vm.myUserName,
-                ),
-              ),
-              const SizedBox(height: 16),
-              _QuizConfigSection(websocket: websocket),
-              const SizedBox(height: 16),
-              _HostActions(websocket: websocket, myUserName: _vm.myUserName),
-              const SizedBox(height: 8),
-            ],
-          ),
+            ),
+            const SizedBox(height: 16),
+            _QuizConfigSection(websocket: websocket),
+            const SizedBox(height: 16),
+            _HostActions(websocket: websocket, myUserName: _vm.myUserName),
+            const SizedBox(height: 8),
+          ],
         ),
       ),
     );
@@ -630,7 +636,7 @@ class _QuizConfigSectionState extends State<_QuizConfigSection> {
     }
 
     return Container(
-      padding: const EdgeInsets.all(16),
+      padding: const EdgeInsets.all(12),
       decoration: BoxDecoration(
         color: Colors.white,
         borderRadius: BorderRadius.circular(12),
@@ -641,7 +647,7 @@ class _QuizConfigSectionState extends State<_QuizConfigSection> {
         boxShadow: const [
           BoxShadow(
             color: AppTheme.neoBlack,
-            offset: Offset(4, 4),
+            offset: Offset(3, 3),
             blurRadius: 0,
           ),
         ],
@@ -654,19 +660,19 @@ class _QuizConfigSectionState extends State<_QuizConfigSection> {
               const Text(
                 'QUIZ CONFIGURATION',
                 style: TextStyle(
-                  fontSize: 14,
+                  fontSize: 12,
                   fontWeight: FontWeight.w900,
-                  letterSpacing: 1,
+                  letterSpacing: 0.8,
                   color: AppTheme.neoBlack,
                 ),
               ),
               const Spacer(),
               if (configured) ...[
                 Container(
-                  padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
+                  padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 3),
                   decoration: BoxDecoration(
                     color: AppTheme.successGreen.withOpacity(0.15),
-                    borderRadius: BorderRadius.circular(12),
+                    borderRadius: BorderRadius.circular(10),
                     border: Border.all(
                       color: AppTheme.successGreen,
                       width: 2,
@@ -677,15 +683,15 @@ class _QuizConfigSectionState extends State<_QuizConfigSection> {
                       Icon(
                         Icons.check_circle,
                         color: AppTheme.successGreen,
-                        size: 14,
+                        size: 12,
                       ),
-                      const SizedBox(width: 4),
+                      const SizedBox(width: 3),
                       Text(
                         'CONFIGURED',
                         style: TextStyle(
-                          fontSize: 10,
+                          fontSize: 9,
                           fontWeight: FontWeight.w900,
-                          letterSpacing: 0.8,
+                          letterSpacing: 0.6,
                           color: AppTheme.successGreen,
                         ),
                       ),
@@ -695,7 +701,7 @@ class _QuizConfigSectionState extends State<_QuizConfigSection> {
               ],
             ],
           ),
-          const SizedBox(height: 12),
+          const SizedBox(height: 8),
           // Subject Dropdown
           Container(
             decoration: BoxDecoration(
@@ -750,91 +756,102 @@ class _QuizConfigSectionState extends State<_QuizConfigSection> {
             ),
           ),
           if (_subjectInfo != null) ...[
-            const SizedBox(height: 16),
+            const SizedBox(height: 10),
             const Text(
               'SELECT CHAPTERS',
               style: TextStyle(
-                fontSize: 12,
+                fontSize: 10,
                 fontWeight: FontWeight.w900,
-                letterSpacing: 0.8,
+                letterSpacing: 0.6,
                 color: AppTheme.darkGrey,
               ),
             ),
-            const SizedBox(height: 8),
-            Container(
-              padding: const EdgeInsets.all(12),
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(8),
-                border: Border.all(
-                  color: AppTheme.lightGrey,
-                  width: 2,
+            const SizedBox(height: 6),
+            // BUG FIX: chapters used to sit in an unbounded Wrap, which grew
+            // as tall as it needed to fit every chapter chip. With subjects
+            // that have a lot of chapters, that alone could push the config
+            // section past the visible screen. Capping the height and
+            // letting it scroll internally keeps the section a predictable,
+            // compact size regardless of chapter count.
+            ConstrainedBox(
+              constraints: const BoxConstraints(maxHeight: 120),
+              child: Container(
+                padding: const EdgeInsets.all(8),
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(8),
+                  border: Border.all(
+                    color: AppTheme.lightGrey,
+                    width: 2,
+                  ),
+                ),
+                child: SingleChildScrollView(
+                  child: Wrap(
+                    spacing: 6,
+                    runSpacing: 6,
+                    children: _subjectInfo!.chapters.map((chapter) {
+                      final selected = _selectedChapters.contains(chapter);
+                      return GestureDetector(
+                        onTap: () {
+                          setState(() {
+                            if (selected) {
+                              _selectedChapters.remove(chapter);
+                            } else {
+                              _selectedChapters.add(chapter);
+                            }
+                          });
+                        },
+                        child: Container(
+                          padding: const EdgeInsets.symmetric(
+                            horizontal: 12,
+                            vertical: 6,
+                          ),
+                          decoration: BoxDecoration(
+                            color: selected
+                                ? AppTheme.accentTeal
+                                : Colors.white,
+                            borderRadius: BorderRadius.circular(8),
+                            border: Border.all(
+                              color: selected
+                                  ? AppTheme.accentTeal
+                                  : AppTheme.mediumGrey,
+                              width: selected ? AppTheme.borderWidth : 2,
+                            ),
+                            boxShadow: selected
+                                ? const [
+                                    BoxShadow(
+                                      color: AppTheme.neoBlack,
+                                      offset: Offset(2, 2),
+                                      blurRadius: 0,
+                                    ),
+                                  ]
+                                : null,
+                          ),
+                          child: Text(
+                            'Ch. $chapter',
+                            style: TextStyle(
+                              fontWeight: selected ? FontWeight.w900 : FontWeight.w600,
+                              fontSize: 12,
+                              color: selected
+                                  ? AppTheme.neoBlack
+                                  : AppTheme.darkGrey,
+                            ),
+                          ),
+                        ),
+                      );
+                    }).toList(),
+                  ),
                 ),
               ),
-              child: Wrap(
-                spacing: 8,
-                runSpacing: 8,
-                children: _subjectInfo!.chapters.map((chapter) {
-                  final selected = _selectedChapters.contains(chapter);
-                  return GestureDetector(
-                    onTap: () {
-                      setState(() {
-                        if (selected) {
-                          _selectedChapters.remove(chapter);
-                        } else {
-                          _selectedChapters.add(chapter);
-                        }
-                      });
-                    },
-                    child: Container(
-                      padding: const EdgeInsets.symmetric(
-                        horizontal: 16,
-                        vertical: 8,
-                      ),
-                      decoration: BoxDecoration(
-                        color: selected
-                            ? AppTheme.accentTeal
-                            : Colors.white,
-                        borderRadius: BorderRadius.circular(8),
-                        border: Border.all(
-                          color: selected
-                              ? AppTheme.accentTeal
-                              : AppTheme.mediumGrey,
-                          width: selected ? AppTheme.borderWidth : 2,
-                        ),
-                        boxShadow: selected
-                            ? const [
-                                BoxShadow(
-                                  color: AppTheme.neoBlack,
-                                  offset: Offset(3, 3),
-                                  blurRadius: 0,
-                                ),
-                              ]
-                            : null,
-                      ),
-                      child: Text(
-                        'Chapter $chapter',
-                        style: TextStyle(
-                          fontWeight: selected ? FontWeight.w900 : FontWeight.w600,
-                          fontSize: 13,
-                          color: selected
-                              ? AppTheme.neoBlack
-                              : AppTheme.darkGrey,
-                        ),
-                      ),
-                    ),
-                  );
-                }).toList(),
-              ),
             ),
-            const SizedBox(height: 12),
+            const SizedBox(height: 10),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Text(
-                  '${_selectedChapters.length} chapter${_selectedChapters.length == 1 ? '' : 's'} selected',
+                  '${_selectedChapters.length} selected',
                   style: TextStyle(
                     fontWeight: FontWeight.w600,
-                    fontSize: 12,
+                    fontSize: 11,
                     color: AppTheme.darkGrey,
                   ),
                 ),
@@ -842,8 +859,8 @@ class _QuizConfigSectionState extends State<_QuizConfigSection> {
                   onTap: _selectedChapters.isEmpty ? null : _apply,
                   child: Container(
                     padding: const EdgeInsets.symmetric(
-                      horizontal: 20,
-                      vertical: 10,
+                      horizontal: 16,
+                      vertical: 8,
                     ),
                     decoration: BoxDecoration(
                       color: _selectedChapters.isEmpty
@@ -859,7 +876,7 @@ class _QuizConfigSectionState extends State<_QuizConfigSection> {
                           : const [
                               BoxShadow(
                                 color: AppTheme.neoBlack,
-                                offset: Offset(3, 3),
+                                offset: Offset(2, 2),
                                 blurRadius: 0,
                               ),
                             ],
@@ -867,9 +884,9 @@ class _QuizConfigSectionState extends State<_QuizConfigSection> {
                     child: Text(
                       configured ? 'UPDATE' : 'CONFIRM',
                       style: TextStyle(
-                        fontSize: 14,
+                        fontSize: 12,
                         fontWeight: FontWeight.w900,
-                        letterSpacing: 1,
+                        letterSpacing: 0.8,
                         color: _selectedChapters.isEmpty
                             ? Colors.white70
                             : AppTheme.neoBlack,
