@@ -790,27 +790,20 @@ class _ExplanationCard extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
-        color: Colors.blue.withOpacity(0.1),
+        color: AppTheme.accentTeal.withOpacity(0.08),
         borderRadius: BorderRadius.circular(12),
         border: Border.all(
-          color: Colors.blue,
+          color: AppTheme.accentTeal.withOpacity(0.3),
           width: 2,
         ),
-        boxShadow: const [
-          BoxShadow(
-            color: AppTheme.neoBlack,
-            offset: Offset(3, 3),
-            blurRadius: 0,
-          ),
-        ],
       ),
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Icon(
-            Icons.info_outline,
+            Icons.lightbulb_outline,
             size: 20,
-            color: Colors.blue.shade700,
+            color: AppTheme.accentTeal,
           ),
           const SizedBox(width: 10),
           Expanded(
