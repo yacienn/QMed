@@ -7,27 +7,27 @@ export const Types = {
   AUTH_FAILED: "auth_failed",
   CREATE_ROOM: "create_room",
   ROOM_UPDATE: "room_update",
-  ROOM_DELETED: "room_deleted",   // ← new: emitted when the last player leaves
+  ROOM_DELETED: "room_deleted",   
   START_GAME: "start_game",
   READY: "ready",
   PLAYER_JOINED: "player_joined",
   PLAYER_LEFT: "player_left",
   GAME_STARTED: "game_started",
   ERROR: "error",
-  ANSWER_RESULT: "answer_result",   // ← new: sent back to the answering player
-  ALL_ANSWERED: "all_answered",     // ← new: broadcast when every player has answered the current question
-  NEXT_QUESTION: "next_question",   // ← new: host -> server, advance to next question
-  NEW_QUESTION: "new_question",     // ← new: server -> clients, here is the next question
-  GAME_FINISHED: "game_finished",   // ← new: server -> clients, game over + final scores
-  GET_SUBJECTS: "get_subjects",     // ← new: client -> server, request available subjects/chapters
-  SUBJECTS: "subjects",             // ← new: server -> client, reply with available subjects/chapters
-  CONFIGURE_QUIZ: "configure_quiz", // ← new: host -> server, choose subject + chapters for this room
-  QUIZ_CONFIGURED: "quiz_configured", // ← new: server -> room, quiz selection was applied
-  REMATCH: "rematch",               // ← new: host -> server, play again with the same subject+chapters
-  ROOM_REMATCHED: "room_rematched", // ← new: server -> room, rematch accepted, everyone goes back to the lobby
-  KICK_PLAYER: "kick_player",       // ← new: host -> server, remove a player from the room
-  PLAYER_KICKED: "player_kicked",   // ← new: server -> room, tells everyone left who was removed
-  KICKED: "kicked",                 // ← new: server -> the removed client only, right before closing them
+  ANSWER_RESULT: "answer_result",   
+  ALL_ANSWERED: "all_answered",     
+  NEXT_QUESTION: "next_question",   
+  NEW_QUESTION: "new_question",    
+  GAME_FINISHED: "game_finished",  
+  GET_SUBJECTS: "get_subjects",   
+  SUBJECTS: "subjects",            
+  CONFIGURE_QUIZ: "configure_quiz",
+  QUIZ_CONFIGURED: "quiz_configured",
+  REMATCH: "rematch",              
+  ROOM_REMATCHED: "room_rematched", 
+  KICK_PLAYER: "kick_player",       
+  PLAYER_KICKED: "player_kicked", 
+  KICKED: "kicked",               
 } as const;
 export type Types = typeof Types[keyof typeof Types];
 
