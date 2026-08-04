@@ -16,9 +16,7 @@ const MAX_PLAYERS = 6;
 const MAX_CHAT_MESSAGES = 50; // ring buffer — oldest messages drop off, nothing is ever persisted
 const MAX_CHAT_MESSAGE_LENGTH = 300;
 
-// How long players get to answer each question before the server forces a
-// reveal on their behalf. Sent to clients (as `timeLimit`) alongside
-// GAME_STARTED/NEW_QUESTION so the UI can render a matching countdown.
+
 export const QUESTION_TIME_LIMIT_SECONDS = 20;
 
 const rooms = new Map<string, Room>();
